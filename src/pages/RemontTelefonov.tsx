@@ -7,20 +7,20 @@ import { Link } from "react-router-dom";
 
 const RemontTelefonov = () => {
   const brands = [
-    { name: "iPhone", path: "/remont_telefonov/iphone", description: "Ремонт iPhone всех моделей" },
-    { name: "Samsung", path: "/remont_telefonov/samsung", description: "Ремонт телефонов Samsung Galaxy" },
-    { name: "Xiaomi", path: "/remont_telefonov/xiaomi", description: "Ремонт телефонов Xiaomi и Redmi" },
-    { name: "Huawei", path: "/remont_telefonov/huawei", description: "Ремонт телефонов Huawei и Honor" },
-    { name: "Nokia", path: "/remont_telefonov/nokia", description: "Ремонт телефонов Nokia" },
-    { name: "LG", path: "/remont_telefonov/lg", description: "Ремонт телефонов LG" },
-    { name: "Sony", path: "/remont_telefonov/sony", description: "Ремонт телефонов Sony Xperia" },
-    { name: "HTC", path: "/remont_telefonov/htc", description: "Ремонт телефонов HTC" },
-    { name: "Meizu", path: "/remont_telefonov/meizu", description: "Ремонт телефонов Meizu" },
-    { name: "Lenovo", path: "/remont_telefonov/lenovo", description: "Ремонт телефонов Lenovo" },
-    { name: "ZTE", path: "/remont_telefonov/zte", description: "Ремонт телефонов ZTE" },
-    { name: "Realme", path: "/remont_telefonov/realme", description: "Ремонт телефонов Realme" },
-    { name: "Vivo", path: "/remont_telefonov/vivo", description: "Ремонт телефонов Vivo" },
-    { name: "Poco", path: "/remont_telefonov/poco", description: "Ремонт телефонов Poco" }
+    { name: "iPhone", path: "/remont_telefonov/iphone.html", description: "Ремонт iPhone всех моделей" },
+    { name: "Samsung", path: "/remont_telefonov/samsung.html", description: "Ремонт телефонов Samsung Galaxy" },
+    { name: "Xiaomi", path: "/remont_telefonov/xiaomi.html", description: "Ремонт телефонов Xiaomi и Redmi" },
+    { name: "Huawei", path: "/remont_telefonov/huawei.html", description: "Ремонт телефонов Huawei и Honor" },
+    { name: "Nokia", path: "/remont_telefonov/nokia.html", description: "Ремонт телефонов Nokia" },
+    { name: "LG", path: "/remont_telefonov/lg.html", description: "Ремонт телефонов LG" },
+    { name: "Sony", path: "/remont_telefonov/sony.html", description: "Ремонт телефонов Sony Xperia" },
+    { name: "HTC", path: "/remont_telefonov/htc.html", description: "Ремонт телефонов HTC" },
+    { name: "Meizu", path: "/remont_telefonov/meizu.html", description: "Ремонт телефонов Meizu" },
+    { name: "Lenovo", path: "/remont_telefonov/lenovo.html", description: "Ремонт телефонов Lenovo" },
+    { name: "ZTE", path: "/remont_telefonov/zte.html", description: "Ремонт телефонов ZTE" },
+    { name: "Realme", path: "/remont_telefonov/realme.html", description: "Ремонт телефонов Realme" },
+    { name: "Vivo", path: "/remont_telefonov/vivo.html", description: "Ремонт телефонов Vivo" },
+    { name: "Poco", path: "/remont_telefonov/poco.html", description: "Ремонт телефонов Poco" }
   ];
 
   return (

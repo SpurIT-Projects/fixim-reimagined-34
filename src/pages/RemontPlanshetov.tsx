@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 
 const RemontPlanshetov = () => {
   const brands = [
-    { name: "iPad", path: "/remont_planshetov/ipad", description: "Ремонт iPad всех моделей" },
-    { name: "Samsung", path: "/remont_planshetov/samsung", description: "Ремонт планшетов Samsung Galaxy Tab" }
+    { name: "iPad", path: "/remont_planshetov/ipad.html", description: "Ремонт iPad всех моделей" },
+    { name: "Samsung", path: "/remont_planshetov/samsung.html", description: "Ремонт планшетов Samsung Galaxy Tab" }
   ];
 
   return (

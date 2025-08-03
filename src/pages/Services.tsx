@@ -11,13 +11,13 @@ const Services = () => {
       icon: Shield,
       title: "Гидрогелевая пленка",
       description: "Защитная пленка для экрана телефона. Обеспечивает надежную защиту от царапин и ударов.",
-      link: "/gidrogelevaya_plenka"
+      link: "/gidrogelevaya_plenka.html"
     },
     {
       icon: Gift,
       title: "Эксклюзивные чехлы",
       description: "Большой выбор качественных чехлов для всех моделей телефонов и планшетов.",
-      link: "/eksklyuzivnie-chehli"
+      link: "/eksklyuzivnie-chehli.html"
     }
   ];
 
@@ -57,7 +57,7 @@ const Services = () => {
                     Все виды ремонта мобильных телефонов
                   </p>
                   <Button asChild variant="outline" className="w-full">
-                    <Link to="/remont_telefonov">Подробнее</Link>
+                    <Link to="/remont_telefonov.html">Подробнее</Link>
                   </Button>
                 </CardContent>
               </Card>
@@ -69,7 +69,7 @@ const Services = () => {
                     Качественный ремонт планшетов всех марок
                   </p>
                   <Button asChild variant="outline" className="w-full">
-                    <Link to="/remont_planshetov">Подробнее</Link>
+                    <Link to="/remont_planshetov.html">Подробнее</Link>
                   </Button>
                 </CardContent>
               </Card>
@@ -81,7 +81,7 @@ const Services = () => {
                     Профессиональный ремонт ноутбуков
                   </p>
                   <Button asChild variant="outline" className="w-full">
-                    <Link to="/remont_notebook">Подробнее</Link>
+                    <Link to="/remont_notebook.html">Подробнее</Link>
                   </Button>
                 </CardContent>
               </Card>
@@ -93,7 +93,7 @@ const Services = () => {
                     Ремонт умных часов Apple
                   </p>
                   <Button asChild variant="outline" className="w-full">
-                    <Link to="/remont-apple-watch">Подробнее</Link>
+                    <Link to="/remont-apple-watch.html">Подробнее</Link>
                   </Button>
                 </CardContent>
               </Card>

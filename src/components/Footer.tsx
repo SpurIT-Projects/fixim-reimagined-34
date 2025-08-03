@@ -27,22 +27,22 @@ export const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-foreground">Услуги</h3>
             <div className="space-y-2 text-sm">
-              <Link to="/remont_telefonov" className="block text-muted-foreground hover:text-primary transition-smooth">
+              <Link to="/remont_telefonov.html" className="block text-muted-foreground hover:text-primary transition-smooth">
                 Ремонт телефонов
               </Link>
-              <Link to="/remont_planshetov" className="block text-muted-foreground hover:text-primary transition-smooth">
+              <Link to="/remont_planshetov.html" className="block text-muted-foreground hover:text-primary transition-smooth">
                 Ремонт планшетов
               </Link>
-              <Link to="/remont_notebook" className="block text-muted-foreground hover:text-primary transition-smooth">
+              <Link to="/remont_notebook.html" className="block text-muted-foreground hover:text-primary transition-smooth">
                 Ремонт ноутбуков
               </Link>
-              <Link to="/remont-apple-watch" className="block text-muted-foreground hover:text-primary transition-smooth">
+              <Link to="/remont-apple-watch.html" className="block text-muted-foreground hover:text-primary transition-smooth">
                 Ремонт Apple Watch
               </Link>
-              <Link to="/gidrogelevaya_plenka" className="block text-muted-foreground hover:text-primary transition-smooth">
+              <Link to="/gidrogelevaya_plenka.html" className="block text-muted-foreground hover:text-primary transition-smooth">
                 Гидрогелевая пленка
               </Link>
-              <Link to="/eksklyuzivnie-chehli" className="block text-muted-foreground hover:text-primary transition-smooth">
+              <Link to="/eksklyuzivnie-chehli.html" className="block text-muted-foreground hover:text-primary transition-smooth">
                 Эксклюзивные чехлы
               </Link>
             </div>

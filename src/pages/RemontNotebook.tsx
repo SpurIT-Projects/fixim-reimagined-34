@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 
 const RemontNotebook = () => {
   const brands = [
-    { name: "MacBook", path: "/remont_notebook/macbook", description: "Ремонт MacBook Air, MacBook Pro всех моделей" },
-    { name: "Все бренды", path: "/remont_notebook/all_brends", description: "Ремонт ноутбуков всех производителей" }
+    { name: "MacBook", path: "/remont_notebook/macbook.html", description: "Ремонт MacBook Air, MacBook Pro всех моделей" },
+    { name: "Все бренды", path: "/remont_notebook/all_brends.html", description: "Ремонт ноутбуков всех производителей" }
   ];
 
   return (

@@ -49,22 +49,22 @@ export const Header = () => {
             <Link to="/" className="text-foreground hover:text-primary transition-smooth">
               ГЛАВНАЯ
             </Link>
-            <Link to="/remont_telefonov" className="text-foreground hover:text-primary transition-smooth">
+            <Link to="/remont_telefonov.html" className="text-foreground hover:text-primary transition-smooth">
               ТЕЛЕФОНЫ
             </Link>
-            <Link to="/remont_planshetov" className="text-foreground hover:text-primary transition-smooth">
+            <Link to="/remont_planshetov.html" className="text-foreground hover:text-primary transition-smooth">
               ПЛАНШЕТЫ
             </Link>
-            <Link to="/remont_notebook" className="text-foreground hover:text-primary transition-smooth">
+            <Link to="/remont_notebook.html" className="text-foreground hover:text-primary transition-smooth">
               НОУТБУКИ
             </Link>
-            <Link to="/remont-apple-watch" className="text-foreground hover:text-primary transition-smooth">
+            <Link to="/remont-apple-watch.html" className="text-foreground hover:text-primary transition-smooth">
               APPLE WATCH
             </Link>
-            <Link to="/services" className="text-foreground hover:text-primary transition-smooth">
+            <Link to="/services.html" className="text-foreground hover:text-primary transition-smooth">
               УСЛУГИ
             </Link>
-            <Link to="/contacts" className="text-foreground hover:text-primary transition-smooth">
+            <Link to="/contacts.html" className="text-foreground hover:text-primary transition-smooth">
               КОНТАКТЫ
             </Link>
           </nav>
@@ -93,22 +93,22 @@ export const Header = () => {
               <Link to="/" className="text-foreground hover:text-primary transition-smooth py-2" onClick={toggleMenu}>
                 ГЛАВНАЯ
               </Link>
-              <Link to="/remont_telefonov" className="text-foreground hover:text-primary transition-smooth py-2" onClick={toggleMenu}>
+              <Link to="/remont_telefonov.html" className="text-foreground hover:text-primary transition-smooth py-2" onClick={toggleMenu}>
                 ТЕЛЕФОНЫ
               </Link>
-              <Link to="/remont_planshetov" className="text-foreground hover:text-primary transition-smooth py-2" onClick={toggleMenu}>
+              <Link to="/remont_planshetov.html" className="text-foreground hover:text-primary transition-smooth py-2" onClick={toggleMenu}>
                 ПЛАНШЕТЫ
               </Link>
-              <Link to="/remont_notebook" className="text-foreground hover:text-primary transition-smooth py-2" onClick={toggleMenu}>
+              <Link to="/remont_notebook.html" className="text-foreground hover:text-primary transition-smooth py-2" onClick={toggleMenu}>
                 НОУТБУКИ
               </Link>
-              <Link to="/remont-apple-watch" className="text-foreground hover:text-primary transition-smooth py-2" onClick={toggleMenu}>
+              <Link to="/remont-apple-watch.html" className="text-foreground hover:text-primary transition-smooth py-2" onClick={toggleMenu}>
                 APPLE WATCH
               </Link>
-              <Link to="/services" className="text-foreground hover:text-primary transition-smooth py-2" onClick={toggleMenu}>
+              <Link to="/services.html" className="text-foreground hover:text-primary transition-smooth py-2" onClick={toggleMenu}>
                 УСЛУГИ
               </Link>
-              <Link to="/contacts" className="text-foreground hover:text-primary transition-smooth py-2" onClick={toggleMenu}>
+              <Link to="/contacts.html" className="text-foreground hover:text-primary transition-smooth py-2" onClick={toggleMenu}>
                 КОНТАКТЫ
               </Link>
             </div>
