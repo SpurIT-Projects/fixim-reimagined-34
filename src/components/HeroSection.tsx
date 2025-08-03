@@ -10,7 +10,8 @@ export const HeroSection = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="absolute inset-0 bg-gradient-hero opacity-90"></div>
+        <div className="absolute inset-0 bg-gradient-hero"></div>
+        <div className="absolute inset-0 bg-black/40"></div>
       </div>
 
       {/* Content */}
@@ -18,35 +19,35 @@ export const HeroSection = () => {
         <div className="max-w-4xl mx-auto space-y-8">
           {/* Main heading */}
           <div className="space-y-4">
-            <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
+            <h1 className="text-5xl md:text-7xl font-bold tracking-tight drop-shadow-2xl">
               <span className="text-white">FIXim</span>
-              <span className="text-primary-glow">.BY</span>
+              <span className="text-white">.BY</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-200 font-light">
+            <p className="text-xl md:text-2xl text-white font-light drop-shadow-lg">
               AT YOUR SIDE
             </p>
           </div>
 
           {/* Service description */}
           <div className="space-y-6">
-            <h2 className="text-3xl md:text-4xl font-bold">
+            <h2 className="text-3xl md:text-4xl font-bold text-white drop-shadow-lg">
               РЕМОНТ МОБИЛЬНОЙ ТЕХНИКИ
             </h2>
-            <p className="text-lg md:text-xl text-gray-200 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-lg md:text-xl text-white max-w-2xl mx-auto leading-relaxed drop-shadow-md">
               Современный сервисный центр с 15 специалистами. 
               Более 90% ремонтов выполняем за 1 час. Замена экрана от 15 минут.
             </p>
           </div>
 
           {/* Contact info */}
-          <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-8 text-lg">
+          <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-8 text-lg text-white drop-shadow-md">
             <div className="flex items-center space-x-2">
-              <Phone className="w-5 h-5 text-primary-glow" />
+              <Phone className="w-5 h-5 text-white" />
               <span>ПН - ПТ: с 9:00 до 18:00</span>
             </div>
-            <div className="hidden sm:block w-px h-6 bg-gray-400"></div>
+            <div className="hidden sm:block w-px h-6 bg-white/50"></div>
             <div className="flex items-center space-x-2">
-              <MapPin className="w-5 h-5 text-primary-glow" />
+              <MapPin className="w-5 h-5 text-white" />
               <span>воскресенье - выходной</span>
             </div>
           </div>
@@ -71,7 +72,7 @@ export const HeroSection = () => {
           </div>
 
           {/* Additional info */}
-          <p className="text-sm text-gray-300 mt-8">
+          <p className="text-sm text-white mt-8 drop-shadow-md">
             Если вы не нашли своего производителя, проконсультируйтесь с нашим специалистом
           </p>
         </div>
