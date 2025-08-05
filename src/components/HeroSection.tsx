@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin } from "lucide-react";
-import heroImage from "@/assets/hero-repair-scene.jpg";
+import heroImage from "@/assets/hero-tech-repair.jpg";
 
 export const HeroSection = () => {
   return (
@@ -10,8 +10,7 @@ export const HeroSection = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="absolute inset-0 bg-gradient-hero"></div>
-        <div className="absolute inset-0 bg-black/50"></div>
+        <div className="absolute inset-0 bg-black/20"></div>
       </div>
 
       {/* Content */}
