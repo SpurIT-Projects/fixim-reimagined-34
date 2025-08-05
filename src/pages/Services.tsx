@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Shield, Phone, Gift } from "lucide-react";
 import { Link } from "react-router-dom";
+import heroImage from "@/assets/hero-tech-repair.jpg";
 
 const Services = () => {
   const additionalServices = [
@@ -26,13 +27,20 @@ const Services = () => {
       <Header />
       <main>
         {/* Hero Section */}
-        <section className="py-20 bg-gradient-hero">
-          <div className="container mx-auto px-4 text-center text-white">
+        <section className="relative py-20 overflow-hidden">
+          <div 
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+            style={{ backgroundImage: `url(${heroImage})` }}
+          >
+            <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/70"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/30 to-black/60"></div>
+          </div>
+          <div className="relative z-10 container mx-auto px-4 text-center text-white">
             <div className="max-w-4xl mx-auto space-y-8">
-              <h1 className="text-4xl md:text-6xl font-bold">
+              <h1 className="text-4xl md:text-6xl font-bold drop-shadow-2xl">
                 Наши услуги
               </h1>
-              <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
+              <p className="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed drop-shadow-lg">
                 Полный спектр услуг по ремонту и обслуживанию мобильной техники. 
                 Качественно, быстро, с гарантией.
               </p>
