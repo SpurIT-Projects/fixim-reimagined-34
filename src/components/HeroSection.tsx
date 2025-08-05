@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin } from "lucide-react";
-import heroImage from "@/assets/hero-image-repair.jpg";
+import heroImage from "@/assets/hero-image.jpg";
 
 export const HeroSection = () => {
   return (
