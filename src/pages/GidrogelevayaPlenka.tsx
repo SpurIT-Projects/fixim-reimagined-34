@@ -3,6 +3,7 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Shield, Phone, CheckCircle, Star } from "lucide-react";
+import heroImage from "@/assets/hero-tech-repair.jpg";
 
 const GidrogelevayaPlenka = () => {
   const benefits = [
@@ -28,21 +29,28 @@ const GidrogelevayaPlenka = () => {
       <Header />
       <main>
         {/* Hero Section */}
-        <section className="py-20 bg-gradient-hero">
-          <div className="container mx-auto px-4 text-center text-white">
+        <section className="relative py-20 overflow-hidden">
+          <div 
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+            style={{ backgroundImage: `url(${heroImage})` }}
+          >
+            <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/70"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/30 to-black/60"></div>
+          </div>
+          <div className="relative z-10 container mx-auto px-4 text-center text-white">
             <div className="max-w-4xl mx-auto space-y-8">
               <div className="w-20 h-20 mx-auto bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
                 <Shield className="w-10 h-10 text-white" />
               </div>
-              <h1 className="text-4xl md:text-6xl font-bold">
+              <h1 className="text-4xl md:text-6xl font-bold drop-shadow-2xl">
                 Гидрогелевая пленка
               </h1>
-              <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
+              <p className="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed drop-shadow-lg">
                 Надежная защита экрана вашего устройства. Высокое качество, прозрачность и долговечность.
               </p>
-              <div className="bg-orange/20 backdrop-blur-sm rounded-xl p-6 border border-orange/30">
-                <h2 className="text-2xl font-bold text-white mb-2">🎁 АКЦИЯ!</h2>
-                <p className="text-lg text-gray-200">
+              <div className="bg-orange/20 backdrop-blur-sm rounded-xl p-6 border border-orange/30 drop-shadow-lg">
+                <h2 className="text-2xl font-bold text-white mb-2 drop-shadow-md">🎁 АКЦИЯ!</h2>
+                <p className="text-lg text-white drop-shadow-sm">
                   При выполнении ремонта по замене стекла на телефоне от 70 рублей 
                   гидрогелевую пленку наклеим в подарок!
                 </p>
