@@ -1,15 +1,17 @@
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin } from "lucide-react";
-import heroImage from "@/assets/hero-background-v2.jpg";
+import heroImage from "@/assets/hero-repair-scene.jpg";
 
 export const HeroSection = () => {
   return (
     <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div 
-        className="absolute inset-0 bg-gradient-to-br from-slate-900 via-blue-900 to-teal-800"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="absolute inset-0 bg-black/30"></div>
+        <div className="absolute inset-0 bg-gradient-hero"></div>
+        <div className="absolute inset-0 bg-black/50"></div>
       </div>
 
       {/* Content */}
